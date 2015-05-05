@@ -55,6 +55,7 @@ static void Tile$initTiles() {
     initTileItems();
 }
 
+
 static void (*_Item$initItems)();
 static void Item$initItems() {
     FurnitureItems::itemTableWood = new TableItem(TableItem::_woodId, "itemTableWood", true);
