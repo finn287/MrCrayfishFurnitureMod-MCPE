@@ -62,6 +62,7 @@ static void Item$initItems() {
     FurnitureItems::itemChairWood = new ChairItem(ChairItem::_woodId, "itemChairWood", true);
     FurnitureItems::itemChairStone = new ChairItem(ChairItem::_stoneId, "itemChairStone", false);
 
+
     _Item$initItems();
 }
 
